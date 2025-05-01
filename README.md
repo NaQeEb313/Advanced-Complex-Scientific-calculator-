@@ -30,6 +30,19 @@ This updated version adds more features:
   
 - Improved handling for error cases in scientific functions and more flexibility for calculations.
 
+## Future Updates
+
+In upcoming versions, the following features will be added:
+
+- **Matrix Operations**:
+  - Operations like matrix multiplication, determinant calculation, and inverse of a matrix.
+  
+- **Coordinate Geometry**:
+  - Functions related to the geometry of points, lines, and shapes in 2D and 3D.
+  - Calculations such as distance between points, area of triangles, and line intersections.
+
+Stay tuned for more updates as the project evolves!
+
 ## How to Run
 
 ### Basic Calculator:
