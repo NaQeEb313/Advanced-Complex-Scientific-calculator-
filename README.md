@@ -1,25 +1,39 @@
-# SimpleScientificCalculator
-A simple and scientific calculator using OOP in C++
-# Simple Scientific Calculator
+# Calculator Project
 
-This is a C++ console-based calculator that supports both basic arithmetic and scientific operations. It's built using Object-Oriented Programming (OOP) concepts like inheritance and encapsulation.
+This project includes multiple versions of a calculator, featuring basic operations, scientific functions, and complex number operations.
 
-## Features
+## Versions
 
-### Simple Calculator:
-- Addition
-- Subtraction
-- Multiplication
-- Division
+### `/basic_calculator/` — Original Version:
+The original version contains two calculators:
 
-### Scientific Calculator:
-- Power (a^b)
-- Trigonometric functions: sin(x), cos(x), tan(x), cosec(x), sec(x), cot(x)
-- Natural log (ln)
-- Log with custom base
+1. **Basic Calculator**:  
+   - Simple operations:
+     - Addition
+     - Subtraction
+     - Multiplication
+     - Division
+
+2. **Scientific Calculator**:  
+   Includes all standard scientific functions:
+   - Trigonometric functions (sin, cos, tan)
+   - Logarithmic functions (ln, log)
+   - Power operations
+
+### `/v2_advanced_calculator/` — Updated Version:
+This updated version adds more features:
+- **Complex Number Support**:
+  - Operations like addition, subtraction, multiplication, and conjugates for complex numbers.
+  
+- **Inverse Trigonometric Functions**:
+  - Functions like arctan, arcsin, and arccos.
+  
+- Improved handling for error cases in scientific functions and more flexibility for calculations.
 
 ## How to Run
 
-1. **Compile the code**:
+### Basic Calculator:
+1. Navigate to the `/basic_calculator/` folder.
+2. Compile using:
    ```bash
-   g++ SimpleScientificCalculator.cpp -o calculator
+   g++ main.cpp -o calculator
