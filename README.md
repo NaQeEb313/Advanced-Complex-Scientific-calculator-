@@ -4,7 +4,7 @@ This project includes multiple versions of a calculator, featuring basic operati
 
 ## Versions
 
-### `/basic_calculator/` — Original Version:
+### `Simple Scientific Calculator` — Original Version:
 The original version contains two calculators:
 
 1. **Basic Calculator**:  
@@ -45,8 +45,8 @@ Stay tuned for more updates as the project evolves!
 
 ## How to Run
 
-### Basic Calculator:
-1. Navigate to the `/basic_calculator/` folder.
+### Advanced Complex Scientific Calculator:
+1. Navigate to the `update1ScientificCalculator.cpp` file.
 2. Compile using:
    ```bash
    g++ main.cpp -o calculator
