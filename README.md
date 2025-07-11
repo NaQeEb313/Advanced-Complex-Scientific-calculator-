@@ -1,54 +1,93 @@
-# Multifunction C++ Calculator
+# 🧮 Advanced Multi-Functional Calculator in C++
 
-## 🔢 Overview
+## 🔧 Description
 
-This is a console-based C++ calculator that supports four main functionalities:
+This is a C++ console application that functions as an all-in-one calculator. It covers multiple domains of mathematics:
 
 1. **Basic Arithmetic Calculator**
 2. **Scientific Calculator**
 3. **Complex Number Calculator**
-4. **Coordinate Geometry / Vector Calculator**
-
-The project demonstrates principles of object-oriented programming (OOP) including class inheritance, dynamic memory allocation, and modular code design. It also handles edge cases such as division by zero, invalid trigonometric inputs, and dimension mismatches in vectors.
+4. **Coordinate Geometry / Vector Calculator**  
+   ➕ **Now with Dot Product & Cross Product**
 
 ---
 
-## 🧠 Features
+## 🛠️ Features
 
-### 1. Basic Calculator
-- Addition, Subtraction, Multiplication, Division
-- Input validation for division by zero
+### 🔢 1. Basic Calculator
+Performs standard arithmetic operations:
+- Addition
+- Subtraction
+- Multiplication
+- Division (with zero-division error handling)
 
-### 2. Scientific Calculator
-- `sin(a)`, `cos(a)`, `tan(a)`
-- `cosec(a)`, `sec(a)`, `cot(a)`
-- Inverse trigonometric functions: `sin⁻¹`, `cos⁻¹`, `tan⁻¹`, etc.
-- `ln(a)` and logarithm of any base `logₐ(b)`
-- Power operation `a^b`
+### 🧪 2. Scientific Calculator
+Supports functions such as:
+- Power (a^b)
+- Trigonometric functions (sin, cos, tan, cosec, sec, cot)
+- Inverse trigonometric functions (sin⁻¹, cos⁻¹, tan⁻¹, etc.)
+- Natural log (ln)
+- Logarithm with custom base
 
-### 3. Complex Number Calculator
-- Complex number input in form `a + bi`
-- Addition, Subtraction, Multiplication
+### 🔁 3. Complex Number Calculator
+Supports operations on complex numbers:
+- Addition
+- Subtraction
+- Multiplication
 - Conjugate
-- Square, Cube
-- Magnitude and Argument (in radians)
+- Square & Cube
+- Magnitude
+- Argument (angle in radians)
 
-### 4. Coordinate Geometry (Vector Calculator)
-- Works for **n-dimensional points**
-- Addition, Subtraction of vectors
-- Distance between two vectors
+### 📍 4. Coordinate Geometry / Vector Operations
+Handles n-dimensional points:
 - Magnitude of a vector
+- Vector addition & subtraction
+- Distance between two points
 - Angle between two vectors (in radians)
-- Handles **dimension mismatches** gracefully
+- ✅ **Dot Product**
+- ✅ **Cross Product** *(only in 3D)*
+
+---
+📂 Code Structure
+simple_calculator → Base class for arithmetic operations.
+
+scientific_calculator → Inherits from simple_calculator, adds trig/log functions.
+
+complex → Class for complex number calculations using friend functions.
+
+point → Class for vector/coordinate operations with dynamic memory.
 
 ---
 
-## 💻 How to Run
+📈 Skills Demonstrated
+Object-Oriented Programming in C++
 
-1. Compile using a C++ compiler like `g++`:
+Class Inheritance & Friend Functions
+
+Math/Scientific Computation
+
+Trigonometry & Linear Algebra Basics
+
+Dynamic Memory Management
+
+Console Interaction and Output Formatting
+
+---
+
+📘 Notes
+Cross product works only for 3D vectors.
+
+Dimensions must match for dot product, angle, distance, etc.
+
+Inputs must be valid; some mathematical domain checks are implemented
+
+---
+
+
+## 💻 How to Use
+
+1. **Compile the code using a C++ compiler**:
    ```bash
    g++ calculator.cpp -o calculator
-
-2. Run the executables
    ./calculator
-
