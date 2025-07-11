@@ -1,52 +1,54 @@
-# Calculator Project
+# Multifunction C++ Calculator
 
-This project includes multiple versions of a calculator, featuring basic operations, scientific functions, and complex number operations.
+## 🔢 Overview
 
-## Versions
+This is a console-based C++ calculator that supports four main functionalities:
 
-### `Simple Scientific Calculator` — Original Version:
-The original version contains two calculators:
+1. **Basic Arithmetic Calculator**
+2. **Scientific Calculator**
+3. **Complex Number Calculator**
+4. **Coordinate Geometry / Vector Calculator**
 
-1. **Basic Calculator**:  
-   - Simple operations:
-     - Addition
-     - Subtraction
-     - Multiplication
-     - Division
+The project demonstrates principles of object-oriented programming (OOP) including class inheritance, dynamic memory allocation, and modular code design. It also handles edge cases such as division by zero, invalid trigonometric inputs, and dimension mismatches in vectors.
 
-2. **Scientific Calculator**:  
-   Includes all standard scientific functions:
-   - Trigonometric functions (sin, cos, tan)
-   - Logarithmic functions (ln, log)
-   - Power operations
+---
 
-### `/v2_advanced_calculator/` — Updated Version:
-This updated version adds more features:
-- **Complex Number Support**:
-  - Operations like addition, subtraction, multiplication, and conjugates for complex numbers.
-  
-- **Inverse Trigonometric Functions**:
-  - Functions like arctan, arcsin, and arccos.
-  
-- Improved handling for error cases in scientific functions and more flexibility for calculations.
+## 🧠 Features
 
-## Future Updates
+### 1. Basic Calculator
+- Addition, Subtraction, Multiplication, Division
+- Input validation for division by zero
 
-In upcoming versions, the following features will be added:
+### 2. Scientific Calculator
+- `sin(a)`, `cos(a)`, `tan(a)`
+- `cosec(a)`, `sec(a)`, `cot(a)`
+- Inverse trigonometric functions: `sin⁻¹`, `cos⁻¹`, `tan⁻¹`, etc.
+- `ln(a)` and logarithm of any base `logₐ(b)`
+- Power operation `a^b`
 
-- **Matrix Operations**:
-  - Operations like matrix multiplication, determinant calculation, and inverse of a matrix.
-  
-- **Coordinate Geometry**:
-  - Functions related to the geometry of points, lines, and shapes in 2D and 3D.
-  - Calculations such as distance between points, area of triangles, and line intersections.
+### 3. Complex Number Calculator
+- Complex number input in form `a + bi`
+- Addition, Subtraction, Multiplication
+- Conjugate
+- Square, Cube
+- Magnitude and Argument (in radians)
 
-Stay tuned for more updates as the project evolves!
+### 4. Coordinate Geometry (Vector Calculator)
+- Works for **n-dimensional points**
+- Addition, Subtraction of vectors
+- Distance between two vectors
+- Magnitude of a vector
+- Angle between two vectors (in radians)
+- Handles **dimension mismatches** gracefully
 
-## How to Run
+---
 
-### Advanced Complex Scientific Calculator:
-1. Navigate to the `update1ScientificCalculator.cpp` file.
-2. Compile using:
+## 💻 How to Run
+
+1. Compile using a C++ compiler like `g++`:
    ```bash
-   g++ main.cpp -o calculator
+   g++ calculator.cpp -o calculator
+
+2. Run the executables
+   ./calculator
+
